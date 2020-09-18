@@ -7,7 +7,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class JavaSoundRecorder
-{DANON
+{
+    public static void main(String[] args) {
+        System.out.println("Hello mir");
+    }
     private TargetDataLine line;
     private DbxClientV2 client;
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMdd_HHmmss");
